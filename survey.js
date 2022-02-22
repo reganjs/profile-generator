@@ -27,7 +27,7 @@ rl.question("What name do you go by? ", name => {
             rl.question("What is one thing that you wish you could do? ", dream => {
               console.log("Your answer: ", dream);
               answer.dream = dream;
-              
+
               //prints out the users profile
               console.log(`${answer1} works at ${answer2} for a living. In my free time I enjoy listening to ${answer3}. My favourite thing to eat is ${answer4}, but I really enjoy cooking ${answer5}. My favourite sport is ${answer6} and if I could I would ${answer7}.`);
               rl.close();
